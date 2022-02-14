@@ -1,0 +1,5 @@
+.result-grid {
+  display: grid;
+  text-align: center;
+  grid-auto-rows: 50px 30px 30px;
+}
