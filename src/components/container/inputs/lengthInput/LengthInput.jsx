@@ -8,6 +8,7 @@ import PropTypes from "prop-types";
 
 export default function LengthInput(props) {
   const { lengthMin, lengthMax } = props.data;
+  const { changeValue } = props;
   const [value, setValue] = useState(24);
 
   function handleValidations(event) {
@@ -18,14 +19,14 @@ export default function LengthInput(props) {
     );
 
     setValue(eventValue);
-    props.changeValue(eventValue);
+    changeValue(eventValue);
   }
 
   function handleValue(event) {
     var eventValue = event.target.value;
 
     setValue(eventValue);
-    props.changeValue(eventValue);
+    changeValue(eventValue);
   }
 
   return (
