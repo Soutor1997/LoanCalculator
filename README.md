@@ -1,6 +1,6 @@
 # LoanCalculator
 
-Created with CodeSandbox https://mfd05.csb.app/
+Created with CodeSandbox https://ic501.csb.app/
 
 Čas: 7 hodin
 
